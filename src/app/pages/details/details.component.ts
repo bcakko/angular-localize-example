@@ -1,3 +1,6 @@
+import { getLocaleCurrencyCode } from '@angular/common';
+import { Inject } from '@angular/core';
+import { LOCALE_ID } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./details.component.css'],
 })
 export class DetailsComponent implements OnInit {
-  constructor() {}
+  localeCurrencyCode = `${getLocaleCurrencyCode(this.locale)}`;
+
+  constructor(@Inject(LOCALE_ID) public locale: string) {}
 
   ngOnInit() {}
 }

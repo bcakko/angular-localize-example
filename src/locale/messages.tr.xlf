@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="9146280659211911426" datatype="html">
+        <source>angular/localize example</source>
+        <target>angular/localize ornek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Anasayfa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5028777105388019087" datatype="html">
+        <source>Details</source>
+        <target>Detaylar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title"/></source>
+        <target>@angular/localize ornek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1009575736689734738" datatype="html">
+        <source>Some Products</source>
+        <target>Bazi Urunler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/details/details.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4040600797347337682" datatype="html">
+        <source>This is a test description for some products</source>
+        <target>Bu, bazi urunler icin test amacli detaylardir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/details/details.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3022994926184248873" datatype="html">
+        <source>Hello world!</source>
+        <target>Merhaba dunya!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3064875229226390258" datatype="html">
+        <source>angular-example-logo</source>
+        <target>angular-ornek-logosu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

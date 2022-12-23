@@ -1,21 +1,23 @@
 <div class="page-wrapper">
   <header class="header">
-    <h1 class="main-caption">{{ "header.title" }}</h1>
+    <h1 i18n class="main-caption">angular/localize example</h1>
     <app-language-selector></app-language-selector>
     <nav class="navigation">
       <a
+        i18n
         class="navlink"
         routerLink="/home"
         routerLinkActive="active-link"
         ariaCurrentWhenActive="page"
-        >{{ "header.navigation.home" }}</a
+        >Home</a
       >
       <a
+        i18n
         class="navlink"
         routerLink="/details"
         routerLinkActive="active-link"
         ariaCurrentWhenActive="page"
-        >{{ "header.navigation.details" }}</a
+        >Details</a
       >
     </nav>
   </header>
